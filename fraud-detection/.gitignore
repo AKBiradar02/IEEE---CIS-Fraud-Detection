@@ -1,0 +1,79 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_meta.json
+
+# Logs
+*.log
+logs/
+.DS_Store
+
+# Byte-compiled
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -------------------------
+# Data
+# -------------------------
+# Raw Kaggle data (too large for GitHub)
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# External data
+data/external/*
+!data/external/.gitkeep
+
+# -------------------------
+# Models
+# -------------------------
+models/*
+!models/.gitkeep
+
+# -------------------------
+# Reports & Outputs
+# -------------------------
+reports/visuals/*
+!reports/visuals/.gitkeep
+
+# -------------------------
+# Environment / Config
+# -------------------------
+.env
+*.json
+*.yaml
+*.yml
+
+# -------------------------
+# IDE / OS
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Ignore raw data files
+fraud-detection/data/raw/*
+!fraud-detection/data/raw/.gitkeep
